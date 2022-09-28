@@ -1,15 +1,14 @@
-package javabasic;
+package assignment02;
 
 public class CastingExercise {
-
 	public static void main(String[] args) {
-	byte b=10;
-	int i=b;
-	byte c=i;
-	byte d=(byte)i;
-	byte x=10;
-	byte y=20;
-	byte sum=x*y;// Error is thrown because when two bytes are used in a arthmetic operation, the result will be intege
-
+		/*
+		 * short a=20; short b=1; int num=a*b; System.out.println(+num);
+		 */
+		int a=130;
+	    long b=a;
+		int c=(int)b;
+		System.out.println(+c);
 	}
+
 }
